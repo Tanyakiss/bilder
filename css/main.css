@@ -1,0 +1,407 @@
+@charset "utf-8";
+@import url("bootstrap.css");
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.css");
+@import url("font-awesome.min.css");
+body{
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+h1{
+    font-size: 48px;
+    text-align: center;
+    font-family: Arial;
+    color: #3b383f;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial;
+    color: #3b383f;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 24px;
+    font-family: Arial;
+    color: #3b383f;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header {
+    width:100%;
+    background-image: url(../img/ggg.jpg);  
+    -webkit-background-size: cover ;
+    -moz-background-size: cover;
+     -o-background-size:cover;
+     background-size: cover;
+}
+
+footer{
+    height: 300px;
+    background-color: #4b4e53;
+}
+
+.header-menu{
+    margin-top: 10px;
+}
+
+.img-up{
+    padding-left: 30px;
+    margin-bottom: -10px;    
+}
+
+.img-down{
+    padding-left: 30px;
+    margin-top: -10px; 
+}
+
+.logo-first{
+    font-size: 48px;
+    font-family: Arial;
+}
+
+.logo-second{
+    font-size: 48px;
+    font-family: Arial;
+    color: #f8d927;
+}
+.menu{
+    margin-top: 80px;
+}
+
+.location{
+    margin-top: 80px;
+    color: #fff;
+    font-size: 16px;
+}
+.menu-phone{
+    margin-top: 80px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.phone{
+    margin-top: 30px;
+    font-size: 16px;
+    color:#fff;
+}
+
+.menu li{
+    font-size: 16px;
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu li a{
+     color: #fff;
+}
+
+.menu li a:hover{
+    color: #f8d927;
+    text-decoration: none;
+}
+.catalog-item{
+    margin-bottom: 30px;    
+}
+
+.catalog-item li{
+    list-style-type: none;
+    border:1px solid #e5e5e5;
+    width:280px;
+    padding: 5px 5px 5px 5px;
+    background-color: #fafafa;
+}
+
+.catalog-item li:hover{
+    background-color: #e9cf38;
+    color: #fff;
+}
+
+.slogan{
+    margin-top: 155px;
+}
+
+.registration a{
+    color: #fff; 
+}
+
+.registration a:hover{
+    color: #f8d927;
+}
+
+.first-row{
+    margin-top: -30px;   
+}
+
+.slogan-header{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.order{
+    background-color: #fafafa;    
+}
+
+.order-form{
+    background-color: #fff;  
+    border: 1px solid #e5e5e5;
+    padding: 20px 30px;
+    margin-bottom: 80px;
+}
+
+.remove{
+    color: #e9cf38;
+}
+
+.btn-order{
+    text-align: center;
+}
+
+.account-item{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial;
+    margin-top: 50px;
+    
+}
+.account-item p:hover{
+    color: #e9cf38;
+}
+
+.map{
+    background-image: url("../img/map.jpg");
+    background-size: cover;
+}
+
+.list-item{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.block{
+    background-color: #f6f5f3;
+    border-bottom: 1px solid #e5e5e5;
+    padding:10px 10px 10px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.block p{
+    font-size: 10px;
+}
+
+.name-firm{
+    font-size:16px;
+    font-weight: 400;
+}
+input.name{
+    width: 235px;
+    height: 45px;
+    margin-bottom: 50px;
+    float:right;
+    border-radius: 3px 3px 3px 3px; 
+    color: #bdbdba;
+
+}
+
+input[type="text"]{
+    padding-left: 20px;
+}
+
+input[type="password"]{
+    padding-left: 20px;    
+}
+
+input[type = "search"]{
+    padding-left: 20px; 
+}
+
+input.phone{
+    width: 235px;
+    height: 45px;
+    margin-bottom: 50px;
+    border-radius: 3px 3px 3px 3px; 
+    color: #bdbdba;
+}
+
+input.password{
+    width: 500px;
+    height: 45px;
+    margin-bottom: 10px;
+    border-radius: 3px 3px 3px 3px; 
+    color: #bdbdba;
+}
+
+input.search{
+    width: 500px;
+    height: 45px;
+    margin-bottom: 50px;
+    border-radius: 3px 3px 3px 3px; 
+    color: #bdbdba;
+}
+
+input.delivery{
+    width: 500px;
+    height: 45px;
+    margin-bottom: 10px;
+    border-radius: 3px 3px 3px 3px; 
+    color: #bdbdba;
+    margin-top: 50px;
+}
+
+.btn{
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #e9cf38;
+    border-radius: 10px 10px 10px 10px; 
+    width: 230px;
+    height: 50px;
+    margin-bottom: 100px;
+    
+}
+
+.btn-chat{
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #e9cf38;
+    border-radius: 5px 5px 5px 5px; 
+    width: 130px;
+    height: 25px;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.btn-chat:hover{
+    color: #e9cf38;
+    background-color: #fff;
+}
+.enter{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.step{
+    text-align: center;    
+}
+
+.step-item{
+    margin-bottom: 50px;
+}
+
+.item{
+    margin-bottom: 20px;    
+}
+
+.choise{
+    font-size: 24px;
+    font-family: Arial;
+    color: #3b383f;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner{
+    width:100%;    
+}
+
+
+@media screen and (max-width:1200px){
+    .city{
+        display: none;
+    }
+    
+    .number{
+        display: none;
+    }
+    
+    .city .img-geo:hover {
+        display: block;
+    }
+    .img-phone{
+    float:right;
+}
+
+.img-geo{
+    float: right;
+}
+    .account-item p{
+        font-size:24px;
+        margin-top: none;
+    }
+    .account-item p:hover{
+        color: #e9cf38;
+    }
+}
+
+@media screen and (max-width:1000px){
+  .form-name{
+        text-align: center;
+    }
+    
+    .form-phone{
+        text-align:center;
+    }
+    
+    .form-registration{
+        text-align: center;
+    }
+     input.name{
+        margin-bottom: 30px;
+        float:none;
+    }
+    .menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width:550px){
+    input.name{
+        margin-bottom: 30px;
+        float:none;
+    }
+    
+    input.password{
+        width: 235px;
+    }
+    .form-name{
+        text-align: center;
+    }
+    
+    .form-phone{
+        text-align:center;
+    }
+    
+    .form-registration{
+        text-align: center;
+    }
+
+    .img-geo{
+        float: right;
+    }  
+    
+    .img-phone{
+        float: right;
+    }
+    .location{
+        float: right;
+    }
+    .menu-phone{
+        float:right;
+    }
+    input.delivery{
+        width:200px;
+    }
+    input.search{
+        width: 200px;
+    }
+}
